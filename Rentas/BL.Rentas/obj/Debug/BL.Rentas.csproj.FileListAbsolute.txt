@@ -1,0 +1,5 @@
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\BL.Rentas.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\BL.Rentas.pdb
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.csprojResolveAssemblyReference.cache
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.pdb

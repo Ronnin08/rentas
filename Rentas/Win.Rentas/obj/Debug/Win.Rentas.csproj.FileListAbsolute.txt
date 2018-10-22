@@ -1,0 +1,15 @@
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe.config
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.pdb
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\BL.Rentas.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\BL.Rentas.pdb
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csprojResolveAssemblyReference.cache
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormClientes.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormLogin.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormMenu.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormProductos.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormRentas.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.Properties.Resources.resources
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.exe
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.pdb
