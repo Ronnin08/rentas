@@ -30,18 +30,31 @@ namespace Win.Rentas
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
-            var id = Convert.ToInt32(idTextBox.Text);
-            var resultado =_clientes.EliminarCliente(id);
+            if (idTextBox.Text != "")
+            {
+                var resultado = MessageBox.Show("Desea eliminar este registro?", "Eliminar", MessageBoxButtons.YesNo);
+                if (resultado == DialogResult.Yes)
+                {
+                    var id = Convert.ToInt32(idTextBox.Text);
+                    Eliminar(id);
+                }
+            }
+        }
 
-            if(resultado == true)
+        private void Eliminar(int id)
+        {
+            var resultado = _clientes.EliminarCliente(id);
+
+            if (resultado == true)
             {
                 listaClientesBindingSource.ResetBindings(false);
             }
             else
             {
-                MessageBox.Show("Ocurrio un error al eliminar el cliente");
+                MessageBox.Show("Ocurrio un error al eliminar el producto");
             }
         }
+
 
         private void listaClientesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
@@ -50,21 +63,46 @@ namespace Win.Rentas
             var cliente = (Cliente)listaClientesBindingSource.Current;
 
             var resultado = _clientes.GuardarCliente(cliente);
-            if(resultado = true)
+
+            if(resultado.Exitoso == true)
             {
                 listaClientesBindingSource.ResetBindings(false);
+                DeshabilitarHabilitarBotones(true);
             }
             else
             {
-                MessageBox.Show("Ocurrio un error al guardar el cliente");
+                MessageBox.Show(resultado.Mensaje);
             }
     
         }
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
+
             _clientes.AgregarCliente();
             listaClientesBindingSource.MoveLast();
+
+            DeshabilitarHabilitarBotones(false);
+        }
+
+        private void DeshabilitarHabilitarBotones(bool valor)
+        {
+            bindingNavigatorMoveFirstItem.Enabled = valor;
+            bindingNavigatorMoveLastItem.Enabled = valor;
+            bindingNavigatorMovePreviousItem.Enabled = valor;
+            bindingNavigatorMoveNextItem.Enabled = valor;
+            bindingNavigatorPositionItem.Enabled = valor;
+
+            bindingNavigatorDeleteItem.Enabled = valor;
+            bindingNavigatorAddNewItem.Enabled = valor;
+            toolStripButton1Cancelar.Visible = !valor;
+
+        }
+
+        private void toolStripButton1Cancelar_Click(object sender, EventArgs e)
+        {
+            DeshabilitarHabilitarBotones(true);
+            Eliminar(0);
         }
     }
 }

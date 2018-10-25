@@ -10,6 +10,8 @@ namespace BL.Rentas
     public class ClientesBL
     {
         public BindingList<Cliente> ListaClientes { get; set; }
+
+        //Propiedades
         public ClientesBL()
         {
             ListaClientes = new BindingList<Cliente>();
@@ -64,15 +66,24 @@ namespace BL.Rentas
             return ListaClientes;
         }
 
-        public bool GuardarCliente(Cliente cliente)
+        public Resultado GuardarCliente(Cliente cliente)
         {
+            var resultado = Validar(cliente);
+            if(resultado.Exitoso == false)
+            {
+                return resultado;
+            }
+
             if(cliente.Id == 0)
             {
                 cliente.Id = ListaClientes.Max(item => item.Id) + 1;
             }
-            return true;
+
+            resultado.Exitoso = true;
+            return resultado;
         }
 
+        //Agregar Clietes
         public void AgregarCliente()
         {
             var nuevoCliente = new Cliente();
@@ -91,15 +102,53 @@ namespace BL.Rentas
             }
             return false;
         }
-    }
 
+        private Resultado Validar(Cliente cliente)
+        {
+            var resultado = new Resultado();
+            resultado.Exitoso = true;
+
+            if (string.IsNullOrEmpty(cliente.Correo) == true)
+            {
+                resultado.Mensaje = "Ingrese un Correo Electronico";
+                resultado.Exitoso = false;
+            }
+
+            if (string.IsNullOrEmpty(cliente.Direccion) == true)
+            {
+                resultado.Mensaje = "Ingrese una Direccion";
+                resultado.Exitoso = false;
+            }
+
+            if (cliente.Telefono <= 0)
+            {
+                resultado.Mensaje = "Ingrese un numero de Telefono";
+                resultado.Exitoso = false;
+            }
+
+            if (string.IsNullOrEmpty(cliente.Nombre) == true)
+            {
+                resultado.Mensaje = "Ingrese un Nombre";
+                resultado.Exitoso = false;
+            }
+
+            return resultado;
+        }
+
+    }
     public class Cliente
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Correo { get; set; }
-        public long Telefono { get; set; }
+        public int Telefono { get; set; }
         public string Direccion { get; set; }
         public bool Activo { get; set; }
+    }
+
+    public class Resultado
+    {
+        public bool Exitoso { get; set; }
+        public string Mensaje { get; set; }
     }
 }
