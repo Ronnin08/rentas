@@ -116,13 +116,13 @@ namespace BL.Rentas
 
             if (string.IsNullOrEmpty(cliente.Direccion) == true)
             {
-                resultado.Mensaje = "Ingrese una Direccion";
+                resultado.Mensaje = "Ingrese la Direccion";
                 resultado.Exitoso = false;
             }
 
             if (cliente.Telefono <= 0)
             {
-                resultado.Mensaje = "Ingrese un numero de Telefono";
+                resultado.Mensaje = "Ingrese un Numero de Telefono";
                 resultado.Exitoso = false;
             }
 

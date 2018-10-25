@@ -278,7 +278,7 @@
             this.correoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listaClientesBindingSource, "Correo", true));
             this.correoTextBox.Location = new System.Drawing.Point(77, 146);
             this.correoTextBox.Name = "correoTextBox";
-            this.correoTextBox.Size = new System.Drawing.Size(329, 20);
+            this.correoTextBox.Size = new System.Drawing.Size(323, 20);
             this.correoTextBox.TabIndex = 4;
             // 
             // direccionTextBox
@@ -286,7 +286,7 @@
             this.direccionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listaClientesBindingSource, "Direccion", true));
             this.direccionTextBox.Location = new System.Drawing.Point(77, 120);
             this.direccionTextBox.Name = "direccionTextBox";
-            this.direccionTextBox.Size = new System.Drawing.Size(329, 20);
+            this.direccionTextBox.Size = new System.Drawing.Size(323, 20);
             this.direccionTextBox.TabIndex = 6;
             // 
             // idTextBox
@@ -295,7 +295,7 @@
             this.idTextBox.Location = new System.Drawing.Point(77, 42);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.ReadOnly = true;
-            this.idTextBox.Size = new System.Drawing.Size(329, 20);
+            this.idTextBox.Size = new System.Drawing.Size(323, 20);
             this.idTextBox.TabIndex = 8;
             // 
             // nombreTextBox
@@ -303,7 +303,7 @@
             this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listaClientesBindingSource, "Nombre", true));
             this.nombreTextBox.Location = new System.Drawing.Point(77, 68);
             this.nombreTextBox.Name = "nombreTextBox";
-            this.nombreTextBox.Size = new System.Drawing.Size(329, 20);
+            this.nombreTextBox.Size = new System.Drawing.Size(323, 20);
             this.nombreTextBox.TabIndex = 10;
             // 
             // telefonoTextBox
@@ -311,7 +311,7 @@
             this.telefonoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listaClientesBindingSource, "Telefono", true));
             this.telefonoTextBox.Location = new System.Drawing.Point(77, 94);
             this.telefonoTextBox.Name = "telefonoTextBox";
-            this.telefonoTextBox.Size = new System.Drawing.Size(329, 20);
+            this.telefonoTextBox.Size = new System.Drawing.Size(323, 20);
             this.telefonoTextBox.TabIndex = 12;
             // 
             // FormClientes
