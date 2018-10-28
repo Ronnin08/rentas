@@ -13,3 +13,10 @@ C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\renta
 C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
 C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.exe
 C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.pdb
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.xml
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\System.Data.SqlServerCe.dll
+C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServerCompact.xml

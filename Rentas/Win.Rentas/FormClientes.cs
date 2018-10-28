@@ -68,6 +68,7 @@ namespace Win.Rentas
             {
                 listaClientesBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
+                MessageBox.Show("Cliente guardado");
             }
             else
             {
