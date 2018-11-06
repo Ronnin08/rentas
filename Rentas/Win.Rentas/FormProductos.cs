@@ -4,16 +4,20 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Win.Rentas;
 
 namespace Win.Rentas
 {
     public partial class FormProductos : Form
     {
         ProductosBL _productos;
+        CategoriasBL _categorias;
+        TiposBL _tipos;
 
         public FormProductos()
         {
@@ -21,6 +25,14 @@ namespace Win.Rentas
 
             _productos = new ProductosBL();
             listaProductosBindingSource.DataSource = _productos.ObtenerProductos();
+
+            _categorias = new CategoriasBL();
+            listaCategoriasBindingSource.DataSource = _categorias.ObtenerCategorias();
+
+            _tipos = new TiposBL();
+            listaTiposBindingSource.DataSource = _tipos.ObtenerTipos();
+
+            
         }
 
         private void listaProductosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -28,12 +40,22 @@ namespace Win.Rentas
             listaProductosBindingSource.EndEdit();
             var producto = (Producto)listaProductosBindingSource.Current;
 
+            if (fotoPictureBox.Image != null)
+            {
+                producto.Foto = Program.imageToByteArray(fotoPictureBox.Image);
+            }
+            else
+            {
+                producto.Foto = null;
+            }
+
             var resultado = _productos.GuardarProducto(producto);
 
             if (resultado.Exitoso == true)
             {
                 listaProductosBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
+                MessageBox.Show("Producto Guardado");
             }
             else
             {
@@ -46,7 +68,6 @@ namespace Win.Rentas
         {
             _productos.AgregarProducto();
             listaProductosBindingSource.MoveLast();
-
             DeshabilitarHabilitarBotones(false);
         }
 
@@ -96,7 +117,33 @@ namespace Win.Rentas
             Eliminar(0);
         }
 
-        private void FormProductos_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var producto = (Producto)listaProductosBindingSource.Current;
+            if (producto != null)
+            {
+                openFileDialog1.ShowDialog();
+                var archivo = openFileDialog1.FileName;
+                if (archivo != "")
+                {
+                    var fileInfo = new FileInfo(archivo);
+                    var fileStream = fileInfo.OpenRead();
+                    fotoPictureBox.Image = Image.FromStream(fileStream);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Cree un nuevo producto antes de asignarle una imagen");
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            fotoPictureBox.Image = null;
+        }
+
+        private void categoriaIdComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

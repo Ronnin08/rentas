@@ -1,22 +1,69 @@
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe.config
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\Win.Rentas.pdb
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\BL.Rentas.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\BL.Rentas.pdb
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csprojResolveAssemblyReference.cache
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormClientes.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormLogin.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormMenu.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormProductos.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormRentas.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.Properties.Resources.resources
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.exe
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\obj\Debug\Win.Rentas.pdb
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.xml
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.xml
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServerCompact.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\System.Data.SqlServerCe.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe.config
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Win.Rentas.pdb
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\BL.Rentas.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\EntityFramework.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\BL.Rentas.pdb
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\EntityFramework.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csprojResolveAssemblyReference.cache
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormClientes.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormLogin.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormMenu.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormProductos.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormRentas.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.Properties.Resources.resources
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.exe
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\Win.Rentas\obj\Debug\Win.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe.config
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.exe
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Win.Rentas.exe
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Win.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\BL.Rentas.dll
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\EntityFramework.dll
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\EntityFramework.xml
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csprojResolveAssemblyReference.cache
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormClientes.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormLogin.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormMenu.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormProductos.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.FormRentas.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.Properties.Resources.resources
+C:\Users\Slingbox\Downloads\Rentas\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Win.Rentas.exe.config
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.exe
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.pdb
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Win.Rentas.exe
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Win.Rentas.pdb
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\BL.Rentas.dll
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\EntityFramework.dll
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\EntityFramework.xml
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.csprojResolveAssemblyReference.cache
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.FormClientes.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.FormLogin.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.FormMenu.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.FormProductos.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.FormRentas.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.Properties.Resources.resources
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\obj\Debug\Win.Rentas.csproj.GenerateResource.Cache
+C:\Users\Slingbox\Desktop\Rentas-master\Win.Rentas\bin\Debug\BL.Rentas.pdb

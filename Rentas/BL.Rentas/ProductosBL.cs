@@ -1,54 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BL.Rentas
 {
     public class ProductosBL
     {
+        Contexto _contexto;
+
         public BindingList<Producto> ListaProductos { get; set; }
 
         public ProductosBL()
         {
+            _contexto = new Contexto();
             ListaProductos = new BindingList<Producto>();
-
-            var producto1 = new Producto();
-            producto1.Id = 1;
-            producto1.Descripcion = "iPhone X";
-            producto1.Precio = 25000;
-            producto1.Existencia = 15;
-            producto1.Activo = true;
-
-            ListaProductos.Add(producto1);
-
-            var producto2 = new Producto();
-            producto2.Id = 2;
-            producto2.Descripcion = "Samsung Galaxy S9";
-            producto2.Precio = 20000;
-            producto2.Existencia = 8;
-            producto2.Activo = true;
-
-            ListaProductos.Add(producto2);
-
-            var producto3 = new Producto();
-            producto3.Id = 3;
-            producto3.Descripcion = "LG J7";
-            producto3.Precio = 12000;
-            producto3.Existencia = 17;
-            producto3.Activo = true;
-
-            ListaProductos.Add(producto3);
         }
 
         public BindingList<Producto> ObtenerProductos()
         {
+            _contexto.Productos.Load();
+            ListaProductos = _contexto.Productos.Local.ToBindingList();
+
             return ListaProductos;
         }
 
-        public resultado GuardarProducto(Producto producto)
+        public void CancelarCambios()
+        {
+            foreach (var item in _contexto.ChangeTracker.Entries())
+            {
+                item.State = EntityState.Unchanged;
+                item.Reload();
+            }
+        }
+
+        public Resultado GuardarProducto(Producto producto)
         {
             var resultado = Validar(producto);
             if (resultado.Exitoso == false)
@@ -56,11 +41,7 @@ namespace BL.Rentas
                 return resultado;
             }
 
-            if (producto.Id == 0)
-            {
-                producto.Id = ListaProductos.Max(item => item.Id) + 1;
-            }
-
+            _contexto.SaveChanges();
             resultado.Exitoso = true;
             return resultado;
         }
@@ -68,16 +49,17 @@ namespace BL.Rentas
         public void AgregarProducto()
         {
             var nuevoProducto = new Producto();
-            ListaProductos.Add(nuevoProducto);
+            _contexto.Productos.Add(nuevoProducto);
         }
 
         public bool EliminarProducto(int id)
         {
-            foreach (var producto in ListaProductos)
+            foreach (var producto in ListaProductos.ToList())
             {
                 if (producto.Id == id)
                 {
                     ListaProductos.Remove(producto);
+                    _contexto.SaveChanges();
                     return true;
                 }
             }
@@ -85,9 +67,9 @@ namespace BL.Rentas
             return false;
         }
 
-        private resultado Validar(Producto producto)
+        private Resultado Validar(Producto producto)
         {
-            var resultado = new resultado();
+            var resultado = new Resultado();
             resultado.Exitoso = true;
 
             if (string.IsNullOrEmpty(producto.Descripcion) == true)
@@ -108,6 +90,12 @@ namespace BL.Rentas
                 resultado.Exitoso = false;
             }
 
+            if (producto.CategoriaId == 0)
+            {
+                resultado.Mensaje = "Seleccione una categoria";
+                resultado.Exitoso = false;
+            }
+
             return resultado;
         }
     }
@@ -118,12 +106,16 @@ namespace BL.Rentas
         public string Descripcion { get; set; }
         public double Precio { get; set; }
         public int Existencia { get; set; }
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
+        public int TipoId { get; set; }
+        public Tipo Tipo { get; set; }
+        public byte[] Foto { get; set; }
         public bool Activo { get; set; }
-    }
 
-    public class resultado
-    {
-        public bool Exitoso { get; set; }
-        public string Mensaje { get; set; }
+        public Producto()
+        {
+            Activo = true;
+        }
     }
 }

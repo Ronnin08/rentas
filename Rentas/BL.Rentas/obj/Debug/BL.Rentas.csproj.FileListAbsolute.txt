@@ -1,13 +1,28 @@
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\BL.Rentas.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\BL.Rentas.pdb
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.csprojResolveAssemblyReference.cache
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\obj\Debug\BL.Rentas.pdb
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\BL.Rentas.dll.config
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.xml
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.xml
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServerCompact.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\System.Data.SqlServerCe.dll
-C:\ARCHIVOS\Documentos\Unah-vs\2018\III Periodo\Lenguaje 3\GitRepositorios\rentas\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\BL.Rentas.dll.config
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\BL.Rentas.pdb
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\EntityFramework.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\EntityFramework.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\obj\Debug\BL.Rentas.csprojResolveAssemblyReference.cache
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\obj\Debug\BL.Rentas.dll
+D:\COMPARTIDO\rentas-master\rentas-master\Rentas\BL.Rentas\obj\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\BL.Rentas.dll.config
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\EntityFramework.dll
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\EntityFramework.xml
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\obj\Debug\BL.Rentas.csprojResolveAssemblyReference.cache
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\obj\Debug\BL.Rentas.dll
+C:\Users\Slingbox\Downloads\Rentas\BL.Rentas\obj\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\BL.Rentas.dll.config
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\EntityFramework.dll
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\EntityFramework.xml
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\obj\Debug\BL.Rentas.csprojResolveAssemblyReference.cache
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\obj\Debug\BL.Rentas.dll
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\obj\Debug\BL.Rentas.pdb
+C:\Users\Slingbox\Desktop\Rentas-master\BL.Rentas\bin\Debug\BL.Rentas.dll
